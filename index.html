@@ -3,74 +3,90 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="main.css" media="screen">
 </head>
 <body>
 	<div class="main-container">
 		<!-- HEADER -->
 		<header>
 
-			<div class="splash-header"></div>
-			<nav>
-				<li class="nav-item"></li>
-				<li class="nav-item"></li>
-				<li class="nav-item"></li>
+			<div class="splash-header relative">
+				<h1 class="site-title absolute">My Website</h1>
+			</div>
+			<div class="splash-highlight thin-divider"></div>
+			<nav class="nav">
+				<li class="nav-item">Home</li>
+				<li class="nav-item">All Posts</li>
+				<li class="nav-item">About Us</li>
 			</nav>
+			<div class="nav-highlight thin-divider"></div>
 
 		</header>
 		
 		<!-- ARTICLE SECTION -->
-		<article>
-			<h2></h2>
-			<p></p>
+		<article class="article-section layout-styling">
+			<h2 class="article-title">Article Title</h2>
+			<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolorum magnam cupiditate fugit? Corrupti soluta nisi numquam illum ratione eveniet itaque commodi quibusdam a iusto, facilis suscipit voluptas distinctio ipsum quam asperiores, unde fugit, sunt! 
+
+			Inventore accusamus <strong>nobis molestiae</strong> dolor assumenda et <a href="#">natus facere</a> earum, sit ratione nihil perspiciatis molestias accusantium. </p>
 
 			<section>
-				<h3 class="section-title"></h3>
-				<p class="section-paragraph"></p>
+				<h3 class="section-title">Section Title</h3>
+				<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum accusantium harum dignissimos ut repudiandae, culpa incidunt consectetur dolores voluptatibus magnam.</p>
+
 				<table class="section-table">
-					<tr>
-						<th></th>
-						<th></th>
-						<th></th>
+					<tr class="table-row">
+						<th>What</th>
+						<th>Where</th>
+						<th>How</th>
 					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					<tr class="table-row">
+						<td>HTML</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi porro vitae laudantium sunt recusandae harum quaerat sint commodi perspiciatis aut odio praesentium dignissimos corporis, dolorem.</td>
+						<td>
+							<button class="how-button"><a href="#">Go!</a></button>
+						</td>
 					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					<tr class="table-row">
+						<td>CSS</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit aut ut perspiciatis quia, excepturi neque.</td>
+						<td><button class="how-button"><a href="#">Try!</a></button></td>
 					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
+					<tr class="table-row">
+						<td>JS</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, nesciunt.</td>
+						<td><button class="how-button"><a href="#">View!</a></button></td>
 					</tr>
 				</table>
-				<p class="section-paragraph"></p>
+				<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sapiente cumque eius blanditiis repellat, facere quibusdam incidunt molestiae. Ipsam, corporis.</p>
 			</section>
 
 			<section>
-				<h3 class="section-title"></h3>
-				<p class="section-paragraph"></p>
+				<h3 class="section-title">Section Title</h3>
+				<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat reiciendis nesciunt asperiores laboriosam suscipit officiis saepe unde minima esse maxime.</p>
+				
+				<div class="code-box relative">
+					<code class="pre">
+	$('#myElement').click(function){
+		console.log('Clicked!')
+	});
+					</code>
+				</div>
 
-				<code></code>
-
-				<p class="section-paragraph"></p>
-				<p class="section-paragraph"></p>
+				<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore veniam optio sequi recusandae ea harum velit dolorem esse fugiat.</p>
+				<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, voluptates aspernatur asperiores vitae dignissimos nam tempora voluptas sint reiciendis cum.</p>
 			</section>
 
 			<section>
-				<h3 class="section-title"></h3>
-				<p class="section-paragraph"></p>
-				<img src="" alt="" class="banner-image">
+				<h3 class="section-title">Section Title</h3>
+				<p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi non accusantium eos, officiis et, deserunt.</p>
+				<img src<img src="http://placehold.it/350x70" alt="" class="banner-image">
 				<ol>
-					<li class="list-item"></li>
-					<li class="list-item"></li>
-					<li class="list-item"></li>
+					<li class="list-item"><strong>Create HTML: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ullam, amet doloribus consequatur atque voluptatem cupiditate consequuntur dicta ducimus minima!</li>
+					<li class="list-item"><strong>Make Pretty with CSS: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ullam, amet doloribus consequatur atque voluptatem cupiditate consequuntur dicta ducimus minima!</li>
+					<li class="list-item"><strong>Profit: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ullam, amet doloribus consequatur atque voluptatem cupiditate consequuntur dicta ducimus minima!</li>
 				</ol>
-				<p class="meta-signature"></p>
+				<p class="meta-signature">Posted by <strong>Author</strong> under <strong>Web>Dev</strong> on <strong>January 13, 2014</strong></p>
 
 			</section>
 
@@ -78,47 +94,71 @@
 
 
 		<!-- COMMENTS -->
-		<div class="comments-section">
-			<h2></h2>
+		<div class="comments-section layout-styling">
+			<h2>Comments</h2>
 
 			<div class="user-info">
-				<p class="comment-title"></p>
-				<!-- input form * 3 -->
+				<p class="comment-title">USER INFO</p>
+				<div class="form-box">
+					<form class="three-box">
+						<label>Email</label>
+						<input type="text" class="input-form">
+					</form>
+					<form class="three-box">
+						<label>Display Name</label>
+						<input type="text" class="input-form">
+					</form>
+					<form class="three-box">
+						<label>Website</label>
+						<input type="text" class="input-form">
+					</form>
+				</div>
 			</div>
 
 			<div class="comment-write">
-				<p class="comment-title"></p>
-				<!-- comment box -->
-				<button>Submit</button>
+				<p class="comment-title">COMMENT</p>
+				
+				<div>
+					<form>
+						<input type="text" class="big-input-form">
+					</form>
+				</div>
 			</div>
 
+			<div>
+				<button class="full-width-btn">SUBMIT</button>
+			</div>
+			
+
 			<div class="read-comments">
-				<div class="comment">
-					<img src="" alt="" class="user-avatar">
-					<h4 class="user-name"></h4>
-					<p class="comment-date"></p>
-					<p class="comment-content"></p>
+				<div class="parent-comment">
+					<img src="http://placehold.it/50x50" alt="" class="user-avatar">
+					<h4 class="user-name">User 1</h4>
+					<p class="comment-date">January 13, 2014</p>
+					<p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptatibus, rerum ipsam vitae quis placeat consequuntur consequatur earum accusamus. Saepe!</p>
+					
+					<div class="sub-comment-container">
+						<div class="sub-comment">
+							<img src="http://placehold.it/50x50" alt="" class="user-avatar">
+							<h4 class="user-name">User 1</h4>
+							<p class="comment-date">January 13, 2014</p>
+							<p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem minima officia error mollitia, dolorum veritatis ea temporibus necessitatibus accusantium rerum?</p>
+						</div>
 
-					<div class="comment">
-						<img src="" alt="" class="user-avatar">
-						<h4 class="user-name"></h4>
-						<p class="comment-date"></p>
-						<p class="comment-content"></p>
-					</div>
-
-					<div class="comment">
-						<img src="" alt="" class="user-avatar">
-						<h4 class="user-name"></h4>
-						<p class="comment-date"></p>
-						<p class="comment-content"></p>
+						<div class="sub-comment">
+							<img src="http://placehold.it/50x50" alt="" class="user-avatar">
+							<h4 class="user-name">User 3</h4>
+							<p class="comment-date">January 13, 2014</p>
+							<p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita impedit reiciendis, ducimus ipsum adipisci consequatur perspiciatis dolorum voluptate unde nam.</p>
+						</div>
 					</div>
 				</div>
 
-				<div class="comment">
-					<img src="" alt="" class="user-avatar">
-					<h4 class="user-name"></h4>
-					<p class="comment-date"></p>
-					<p class="comment-content"></p>
+				<div class="parent-comment">
+					<img src="http://placehold.it/50x50" alt="" class="user-avatar">
+					<h4 class="user-name">User 2</h4>
+					<p class="comment-date">January 13, 2014</p>
+					<p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus et tenetur deserunt praesentium corporis, nobis voluptate ut modi reprehenderit eius.</p>
 				</div>
 			</div>
 		</div>
@@ -126,3 +166,4 @@
 	</div>
 </body>
 </html>
+<div class="name"></div>

@@ -1,0 +1,201 @@
+
+
+/*GENERAL*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #7f8c8d;
+}
+
+.main-container{
+	width: 600px;
+	margin: auto;
+}
+
+
+/*   SUPER REUSED CODE   */
+.relative{
+	position: relative;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.thin-divider{
+	height: .5vh;
+}
+
+.layout-styling{
+	background-color: #ecf0f1;
+	padding: 1vh 3% 1vh 3%;
+}
+
+.comment-title{
+	border-bottom: 1px solid grey;
+}
+
+/*HEADER*/
+.splash-header{
+	background-color: #2ECC71;
+	height: 27vh;
+	padding-bottom: 3px solid #27ae60;
+}
+
+.splash-highlight{
+	background-color: #27ae60;
+}
+.site-title{
+	left: 10px;
+	bottom: 10px;
+	margin: 0;
+	color: white;
+}
+
+.nav{
+	background-color: #34495E;
+	height: 4vh;
+	line-height: 4vh;
+}
+.nav-item{
+	display: inline-block;
+	float: right;
+	padding: 0 15px;
+	color: white;
+}
+
+.nav-highlight{
+	background-color: #2c3e50;
+}
+
+
+/*ARTICLE SECTION*/
+
+.article-title{
+	padding: 2vh 0;
+}
+
+.section-paragraph{
+	padding: 0 0 1vh 5%;
+}
+
+.section-paragraph a{
+	text-decoration: none;
+	color: #d35400;
+}
+
+.section-title{
+	border-bottom: 1px solid #8c9193;
+	padding: 0 0 .75vh 3%;
+}
+
+.section-table{
+	border: 1px solid #8c9193;
+	border-collapse: collapse;
+}
+
+td{
+	border-top: 1px solid #8c9193;
+	border-right: 1px solid #8c9193;
+	padding: 5px 10px;
+}
+
+th{
+	border-right: 1px solid #8c9193;
+	text-align: left;
+	padding: 4px;
+	background-color: #bdc3c7;
+}
+
+td:last-child, th:last-child{
+	border-right: none;
+}
+
+.how-button{
+	background-color: #3498db;
+	border: 0;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.how-button a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	margin: auto;
+}
+
+.code-box{
+	background-color: #bdc3c7;
+}
+
+.pre{
+	white-space: pre;
+}
+
+.banner-image{
+	width: 100%;
+}
+
+.list-item{
+	padding: 1vh 0;
+}
+
+.meta-signature{
+	font-size: 14px;
+	color: #999999;
+	padding-left: 2%;
+}
+
+/*COMMENTS SECTION*/
+.form-box{
+	text-align: right;
+}
+
+.three-box{
+	padding: .25vh 0;
+}
+.input-form{
+	width: 60%;
+	margin: 1vh 17% 0 0;
+}
+
+.big-input-form{
+	width: 100%;
+	height: 25vh;
+}
+
+.full-width-btn{
+	background-color: #c0392b;
+	width: 100%;
+	color: white;
+	margin: 4vh 0;
+	text-decoration: none;
+	border: none;
+	font-size: 12px;
+	height: 4vh;
+}
+
+.parent-comment{
+	position: relative;
+}
+
+.user-avatar{
+	float: left;
+	padding-right: 3%;
+}
+
+.user-name{
+	padding-top: 2%;
+}
+
+.comment-date{
+	font-size: 12px;
+	font-style: italic;
+	color: grey;
+}
+
