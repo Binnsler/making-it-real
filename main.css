@@ -190,12 +190,20 @@ td:last-child, th:last-child{
 }
 
 .user-name{
-	padding-top: 2%;
+	margin: 1vh;
+	padding-top: 1vh;
 }
 
 .comment-date{
 	font-size: 12px;
 	font-style: italic;
 	color: grey;
+	margin: 0;
+}
+
+.sub-comment-container{
+	margin-left: 5%;
+	padding-left: 5%;
+	border-left: 1px solid grey;
 }
 
